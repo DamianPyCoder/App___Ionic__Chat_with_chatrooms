@@ -1,0 +1,22 @@
+.create-channel-page {
+  > h2 {
+    margin-bottom: 20px;
+  }
+
+  ion-input {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    --padding-top: 15px;
+    --padding-end: 15px;
+    --padding-bottom: 15px;
+    --padding-start: 15px;
+  }
+
+  ion-button {
+    margin: 15px 0 0 0;
+  }
+
+  .error {
+    color: #f00;
+  }
+}

@@ -1,0 +1,31 @@
+.message {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  color: #000;
+  text-decoration: none;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+    > span {
+      margin-bottom: 5px;
+      font-weight: bold;
+      opacity: 0.6;
+    }
+
+    &.me {
+      background-color: #2a45e3;
+      color: #fff;
+      margin-right: 10px;
+      margin-left: 0;
+    }
+  }
+}

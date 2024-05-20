@@ -1,0 +1,36 @@
+.login-page {
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    > img {
+      height: 300px;
+    }
+  }
+
+  > h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  ion-input {
+    background-color: #aeaeae;
+    border-radius: 10px;
+    --padding-top: 15px;
+    --padding-end: 15px;
+    --padding-bottom: 15px;
+    --padding-start: 15px;
+    text-align: center;
+  }
+
+  ion-button {
+    margin: 15px 0 0 0;
+  }
+
+  .error {
+    color: #f00;
+  }
+}

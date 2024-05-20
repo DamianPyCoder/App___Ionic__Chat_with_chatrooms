@@ -1,0 +1,7 @@
+{
+  "name": "chat-ionic-react-firebase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
